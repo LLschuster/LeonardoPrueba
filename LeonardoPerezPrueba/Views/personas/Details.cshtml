@@ -1,0 +1,44 @@
+﻿@model LeonardoPerezPrueba.Models.personViewModel.personViewModel
+
+@{
+                /**/
+
+                ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>persona</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.persona.Sexo.Nsexo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.persona.Sexo.Nsexo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.persona.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.persona.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.persona.edad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.persona.edad)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.persona.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
