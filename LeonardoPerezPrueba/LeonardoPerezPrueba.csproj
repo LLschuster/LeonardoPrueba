@@ -166,6 +166,10 @@
     <Compile Include="Migrations\201809142009591_poblarSexo.Designer.cs">
       <DependentUpon>201809142009591_poblarSexo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809142028444_constraintsPer.cs" />
+    <Compile Include="Migrations\201809142028444_constraintsPer.Designer.cs">
+      <DependentUpon>201809142028444_constraintsPer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\persona.cs" />
     <Compile Include="Models\databaseContext.cs" />
@@ -240,6 +244,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809142009591_poblarSexo.resx">
       <DependentUpon>201809142009591_poblarSexo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809142028444_constraintsPer.resx">
+      <DependentUpon>201809142028444_constraintsPer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
